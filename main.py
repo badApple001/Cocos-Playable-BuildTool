@@ -8,7 +8,7 @@ import IUtils
 from consoleColorFont import printGreen,printYellowRed
 from progressBar import ProgressBar
 import os
-from IPlatform import Debug, FAE
+from IPlatform import Debug
 import re
 
 root = os.getcwd()

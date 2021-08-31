@@ -5,20 +5,6 @@ import time
 import traceback
 import IUtils
 
-setting = dict()
-FAE = False
-import requests
-def init():
-    try:
-        f = requests.get("https://std-version.oss-cn-hangzhou.aliyuncs.com/std-zilean-version.json",timeout=2)
-        global setting
-        setting = json.loads(f.text)
-    except:
-        setting = {}
-init()
-FAE = 'state' in setting.keys() and setting['state'] == 1
-
-
 DEBUG = True if sys.gettrace() else False
 class Debug:
     __log = ''
