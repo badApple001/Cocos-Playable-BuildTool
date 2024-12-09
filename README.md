@@ -3,6 +3,12 @@ $\underline{可以解决 Cocos Creator 2.4x 版本 Web包 跨域问题 打包成
 ## 构建预览
 ![image](./README_RES/Build_Setting.png)
 
+# 论坛地址
+<iframe src="https://forum.cocos.org/t/topic/120482/2" width="100%" height="600" frameborder="0"></iframe>
+
+# Gitee 仓库地址
+https://gitee.com/welcome2jcSpace/Cocos-Creator-Build-Tool
+
 ## 环境配置
 ### 工具
 **$\color{blue}Cocos Creator 2.4+$**
